@@ -1,5 +1,7 @@
 function Banner() {
-    return <h1>La maison jungle</h1>
+    <div className="lmj-banner">
+
+    </div>
 }
 
 export default Banner
