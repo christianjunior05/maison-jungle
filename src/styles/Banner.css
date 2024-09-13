@@ -1,4 +1,6 @@
-.lmj-banner{
+.lmj-banner {
     color: black;
-    padding: 32px ;
+    text-align: right;
+    padding: 32px;
+    border-bottom: solid 3px black;
 }
