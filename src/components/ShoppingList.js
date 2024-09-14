@@ -1,21 +1,49 @@
-function ShoppingList() {
-    // Déclaration de la liste des plantes
-    const plantList = [
-        { id: 1, name: 'Monstera', isBestSale: true },
-        { id: 2, name: 'Ficus', isBestSale: false },
-        { id: 3, name: 'Pothos', isBestSale: true }
-    ];
+const plantList = [
+    'monstera',
+    'ficus lyrata',
+    'pothos argenté',
+    'yucca',
+    'palmier',
+    {
+        name: 'monstera',
+        category: 'classique',
+        id: '1ed',
+        isBestSale: true
+    },
+    {
+        name: 'ficus lyrata',
+        category: 'classique',
+        id: '1ed',
+        isBestSale: true
+    },    {
+        name: 'pothos argenté',
+        category: 'classique',
+        id: '1ed',
+        isBestSale: true
+    },    {
+        name: 'yucca',
+        category: 'classique',
+        id: '1ed',
+        isBestSale: true
+    },    {
+        name: 'palmier',
+        category: 'classique',
+        id: '1ed',
+        isBestSale: true
+    },
+]
 
+function ShoppingList() {
     return (
         <ul>
-            {plantList.map((plant) => (
-                <li key={plant.id}>
-                    {plant.name} {/* Affiche le nom de la plante */}
-                    {plant.isBestSale && <span>🔥</span>}
-                </li>
-            ))}
+        {plantList.map((plant) => (
+            <li key={ plant.id }>
+                {plant.name}
+                {plant.isBestSale && <span>🔥</span> }
+            </li>
+))}
         </ul>
-    );
+    )
 }
 
 export default ShoppingList;
