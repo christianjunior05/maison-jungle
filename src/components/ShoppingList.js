@@ -18,7 +18,7 @@ function open(){
     console.log("open")
 }
 
-function ShoppingList(open) {
+function ShoppingList() {
     return (
         <ul>
             {plantList.map((plant, index) => (
@@ -33,4 +33,4 @@ function ShoppingList(open) {
 }
 
 export default ShoppingList;
-export default open;
+
