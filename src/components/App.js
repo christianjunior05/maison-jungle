@@ -8,8 +8,8 @@ function App() {
   return (
   <div>
     <Banner/>
-   <ShoppingList/>
-   <PlantsItem/>
+    <ShoppingList/>
+    <PlantsItem/>
   </div>) 
 
 }  
