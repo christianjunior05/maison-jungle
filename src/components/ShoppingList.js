@@ -1,3 +1,5 @@
+
+
 const plantList = [
     'monstera',
     'ficus lyrata',
@@ -12,7 +14,11 @@ const plantList = [
     },
 ];
 
-function ShoppingList() {
+function open(){
+    console.log("open")
+}
+
+function ShoppingList(open) {
     return (
         <ul>
             {plantList.map((plant, index) => (
@@ -20,8 +26,11 @@ function ShoppingList() {
                     {typeof plant === 'string' ? plant : plant.name}
                 </li>
             ))}
+            <button onClick={open}>hello</button>
         </ul>
+        
     );
 }
 
 export default ShoppingList;
+export default open;
