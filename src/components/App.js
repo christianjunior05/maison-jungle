@@ -1,6 +1,6 @@
 import Banner from "./Banner";
 import ShoppingList from "./ShoppingList";
-import PlantsItem from "./PlantsItem";
+import PlantsItem from "./PlantItem";
 
 
 
